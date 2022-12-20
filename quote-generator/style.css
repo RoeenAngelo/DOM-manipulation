@@ -68,3 +68,10 @@ button {
 button:active {
     background-color: lightblue;
 }
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
