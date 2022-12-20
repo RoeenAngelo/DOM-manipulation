@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(images/waves-surfers.jpg) no-repeat center center/ cover;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.main-content {
+    width: 100%;
+    height: 3000px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.author {
+    font-size: 1.6rem;
+    margin: 20px;
+}
+
+button {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: lightblue;
+}
