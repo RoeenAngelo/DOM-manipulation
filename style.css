@@ -57,7 +57,7 @@ body {
     margin: 20px;
 }
 
-button {
+#gen-button {
     background-color: #262626;
     color: #fff;
     font-size: 1.1rem;
@@ -65,9 +65,9 @@ button {
     border-radius: 10px;
 }
 
-/* button:active {
+button:active {
     background-color: #262626;
-} */
+} 
 
 button:hover {
     cursor: pointer;
@@ -75,6 +75,7 @@ button:hover {
     background-color: #fff;
     transition: all 0.3s ease;
 }
+
 @media screen and (max-width: 375px) {
     
   .main-content {
@@ -92,7 +93,7 @@ button:hover {
         margin: 15px;
     }
 
-    button {
+    #gen-button {
         background-color: #262626;
         color: #fff;
         font-size: 1rem;
