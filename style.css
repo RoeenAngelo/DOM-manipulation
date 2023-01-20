@@ -65,9 +65,9 @@ body {
     border-radius: 10px;
 }
 
-button:active {
+/* button:active {
     background-color: #262626;
-} 
+}  */
 
 button:hover {
     cursor: pointer;
@@ -78,7 +78,7 @@ button:hover {
 
 @media screen and (max-width: 375px) {
     
-  .main-content {
+    .main-content {
         width: 270px;
         height: 500px
     }
