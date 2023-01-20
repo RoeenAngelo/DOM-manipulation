@@ -75,9 +75,18 @@ button:hover {
     background-color: #fff;
     transition: all 0.3s ease;
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 375px) {
     .container {
       width: 350px;
-      height: 250px;
+      height: 300px;
+    }
+
+    .main-content {
+        width: 270px;
+    }
+
+    .main-content .text-area {
+        font-size: 1rem;
+        line-height: 1;
     }
 }
