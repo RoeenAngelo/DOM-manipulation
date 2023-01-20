@@ -1,8 +1,12 @@
 let btn = document.querySelector('button');
-console.log(btn);
-
 let quote = document.querySelector('.quote');
 let author = document.querySelector('.author');
+
+btn.addEventListener('click', () => {
+    let random = Math.floor(Math.random() * quotes.length);
+    quote.innerText = quotes[random].quote;
+    author.innerText = `- ${quotes[random].author}`
+})
 
 const quotes = [
     {
@@ -2248,8 +2252,3 @@ const quotes = [
 },
 ]
 
-btn.addEventListener('click', () => {
-    let random = Math.floor(Math.random() * quotes.length);
-    quote.innerText = quotes[random].quote;
-    author.innerText = `- ${quotes[random].author}`
-})

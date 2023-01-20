@@ -65,9 +65,9 @@ button {
     border-radius: 10px;
 }
 
-button:active {
-    background-color: lightblue;
-}
+/* button:active {
+    background-color: #262626;
+} */
 
 button:hover {
     cursor: pointer;
@@ -76,17 +76,27 @@ button:hover {
     transition: all 0.3s ease;
 }
 @media screen and (max-width: 375px) {
-    .container {
-      width: 350px;
-      height: 300px;
-    }
-
-    .main-content {
+    
+  .main-content {
         width: 270px;
+        height: 500px
     }
 
     .main-content .text-area {
         font-size: 1rem;
         line-height: 1;
+    }
+
+    .author {
+        font-size: 1.2rem;
+        margin: 15px;
+    }
+
+    button {
+        background-color: #262626;
+        color: #fff;
+        font-size: 1rem;
+        padding: 5px 10px;
+        border-radius: 10px;
     }
 }
